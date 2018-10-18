@@ -1,0 +1,16 @@
+[package]
+name = "xshade-typecheck"
+description = "Type checker and typed AST for the xshade language."
+license = "MIT"
+repository = "https://github.com/xshade-lang/xshade-typecheck"
+readme = "readme.md"
+keywords = ["xshade", "graphics", "rendering", "vulkan", "spir-v"]
+categories = ["rendering"]
+version = "0.1.0"
+authors = ["Andreas Fischer <vengarioth@googlemail.com>", "Marc-Anton Boehm-von Thenen <boehm.marc.anton@gmail.com>"]
+
+[dependencies]
+serde = "1.0"
+serde_derive = "1.0"
+serde_json = "1.0"
+xshade-parser = "0.1.2"
